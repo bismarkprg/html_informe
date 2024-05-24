@@ -1,0 +1,14 @@
+.columnas {
+    display: flex;
+    justify-content: center;
+
+}
+.col1 {
+    background-color: rgba(241, 37, 37, 0.186);
+    padding: 15px;
+    margin: 10px;
+}
+.col2 {
+    padding: 25px;
+    margin: 10px;
+}

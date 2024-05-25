@@ -1,5 +1,9 @@
 body{
-    background-image: url('fondo.jpg');
+    background-image: url('source/fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
     color: #FFFFFF;
 }
 .columnas {
@@ -10,9 +14,38 @@ body{
 .col1 {
     background-color: rgba(241, 37, 37, 0.186);
     padding: 10px;
-    margin: 1px;
+    margin: 10px;
 }
 .col2 {
     padding: 10px;
-    margin: 1px;
+    margin: 10px;
+}
+.botones {
+    display: flex;
+    justify-content: center;
+
+}
+.b1 {
+    position: relative;
+    padding: 5px;
+    margin: 20px;
+}
+.b1 p{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: hsl(190, 100%, 49%);
+}
+.b2 {
+    position: relative;
+    padding: 5px;
+    margin: 20px;
+}
+.b2 p{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: hsl(141, 89%, 48%);
 }
